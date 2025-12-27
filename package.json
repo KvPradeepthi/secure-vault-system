@@ -1,0 +1,19 @@
+{
+  "name": "secure-vault-system",
+  "version": "1.0.0",
+  "description": "A secure multi-contract vault system with off-chain authorization validation",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "test": "hardhat test tests/system.spec.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "ethers": "^6.7.1",
+    "hardhat": "^2.17.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7"
+  }
+}
